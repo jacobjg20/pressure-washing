@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-position: center;
+  background-image: url('assets/pressure_washing_pavement_closeup.jpg');
+  background-size: cover;
+  position: relative;
+  min-height: 800px;
+  width: 100%;
+}
+
+nav {
+  max-height: 10px;
+  background-color: #326d76;
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  flex: 1;
+  text-align: right;
+}
+
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.nav-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.text-box {
+  width: 60%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text-box h1 {
+  font-size: 62px;
+}
+
+.text-box p{
+  margin: 10px 0 40px;
+}
+
+.hero-btn{
+  font-size: 20px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 12px 34px;
+  background-color: #326d76;
+  position: relative;
+  cursor: pointer;
+  border: none;
+}

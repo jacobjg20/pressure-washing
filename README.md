@@ -11,4 +11,8 @@ Goals
 
 
 Resources
- - https://www.youtube.com/watch?v=oYRda7UtuhA&ab_channel=EasyTutorials
+ - https://youtu.be/oYRda7UtuhA?t=1990
+ - https://www.youtube.com/c/TheCoderCoder
+
+watch flexbox tutorial - https://www.youtube.com/watch?v=fYq5PXgSsbE&ab_channel=WebDevSimplified
+watch css postion absolute;
