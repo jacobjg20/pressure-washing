@@ -1,0 +1,9 @@
+The images needed some hacking around in the css to make them look right with an 
+offset border.
+
+the structure is 
+
+<div Container>
+ <div img> </div>
+ <div accent> </div>
+</div>
