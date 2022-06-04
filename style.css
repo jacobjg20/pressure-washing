@@ -3,6 +3,14 @@
   padding: 0;
 }
 
+p{
+  font-size: 18px;
+}
+
+h1{
+  font-size: 24px;
+}
+
 .header {
   background-position: center;
   background-image: url('assets/pressure_washing_pavement_closeup.jpg');
@@ -67,4 +75,77 @@ nav {
   position: relative;
   cursor: pointer;
   border: none;
+}
+
+.section-1 .row{
+  margin-top: 3%;
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.section-1 {
+  border-top: 40px #326d76 solid;
+}
+
+.section-1 .row p{
+  padding-top: 40px;
+}
+
+.section-1 .row img {
+  height: 400px;
+}
+
+.section-1 .column{
+  flex-basis: 60%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+}
+
+.section-1 .column-2{
+  margin: auto;
+  flex-basis: 25%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+}
+
+hr {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 7px;
+  background-color: #326d76;
+  border: 0 none;
+}
+
+/*Section 2*/
+.section-2 .row{
+  display:flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.section-2 .column{
+  flex-basis: 33%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+}
+
+/*Section 3*/
+.section-3 .row{
+  display:flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.section-3 img{
+  height: 150px;
+}
+
+.section-3 .column-1{
+  flex-basis: 40%;
 }
