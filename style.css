@@ -8,7 +8,8 @@ p{
 }
 
 h1{
-  font-size: 24px;
+  font-size: 32px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -80,8 +81,8 @@ nav {
 .section-1 .row{
   margin-top: 3%;
   display: flex;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .section-1 {
@@ -123,8 +124,8 @@ hr {
   display:flex;
   justify-content: space-between;
   text-align: center;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .section-2 .column{
@@ -134,18 +135,28 @@ hr {
 }
 
 /*Section 3*/
+.section-3 {
+  padding-top: 40px;
+  background-color: #326d76;
+}
+
+.section-3 p{
+  padding-top: 30px;
+}
+
 .section-3 .row{
   display:flex;
   justify-content: space-between;
   text-align: center;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .section-3 img{
-  height: 150px;
+  padding: 20px;
+  height: 350px;
 }
 
-.section-3 .column-1{
-  flex-basis: 40%;
+.section-3 .column-2{
+  flex-basis: 60%;
 }
