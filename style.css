@@ -48,6 +48,12 @@ nav {
   font-size: 16px;
 }
 
+@media(max-width: 800px){
+
+}
+
+/* Hero Section */
+
 .text-box {
   width: 60%;
   color: #fff;
@@ -77,6 +83,16 @@ nav {
   cursor: pointer;
   border: none;
 }
+
+@media(max-width: 800px){
+  .text-box{
+    width: 100%;
+  }
+  .text-box h1 {
+    font-size: 48px;
+  }
+}
+/* Section 1 */
 
 .section-1 .row{
   margin-top: 3%;
@@ -157,6 +173,29 @@ hr {
   height: 350px;
 }
 
+.section-4 {
+  margin-top: 50px;
+}
+
 .section-3 .column-2{
   flex-basis: 60%;
+}
+
+.section-4 .row{
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+footer {
+  background-color: #326d76;
+  margin-top: 50px;
+}
+
+footer .row{
+  display:flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
 }

@@ -3,11 +3,9 @@ Pressure Washing website using Html, Css and javascript.
 
 Goals
 
-  * Create Header
+  * Go through each section of the website and make them mobile responsive
 
-  * Create Hero Image
-
-  * Create text on hero image
+  * create hamburger menu for navigation
 
 
 Resources
