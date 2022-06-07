@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -15,6 +16,7 @@
       <nav>
         <img src="assets\logoipsum-logo-69.svg" alt="logo">
         <div class="nav-links">
+          <img onclick="hideNavLinks()" id="xmark" src="/assets/xmark-solid.svg" alt="">
           <ul>
             <li><a href="">Home</a></li>
             <li><a href="">About</a></li>
@@ -22,6 +24,7 @@
             <li><a href="">Services</a></li>
           </ul>
         </div>
+        <img onclick="showNavLinks()" id="menu" src="/assets/bars-solid.svg" alt="">
       </nav>
 
       <div class="text-box">
@@ -41,6 +44,9 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div class="column-2">
+          <div class="sidewalk_border">
+            Hello
+          </div>
           <img src="assets/sidewalk_cleaning.jpg" alt="">
         </div>
       </div>
@@ -97,29 +103,8 @@
     <!-- Section 4 -->
 
     <section class="section-4">
-      <div class="row">
-        <h1>Contact Us Today</h1>
-        <p>Call or text today to schedule an appointment today!</p>
-        <button class= "hero-btn" type="button" name="button">Call: 815-768-6026</button>
-      </div>
-    </section>
 
-    <footer>
-      <div class="row">
-        <div class="column">
-          <p>General <br> Home <br> About <br> Contact Us</p>
-        </div>
-        <div class="column">
-          Social Media
-        </div>
-        <div class="column">
-          Address
-        </div>
-        <div class="column">
-          Contact Us
-        </div>
-      </div>
-    </footer>
+    </section>
 
 	<script src="index.js"></script>
   </body>
