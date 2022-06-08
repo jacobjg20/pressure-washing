@@ -132,13 +132,12 @@ nav #menu, #xmark{
 
 .section-1 {
   border-top: 40px #326d76 solid;
+  padding-bottom: 50px;
 }
 
 .section-1 .row p{
   padding-top: 40px;
 }
-
-
 
 .section-1 .column{
   flex-basis: 60%;
@@ -148,18 +147,19 @@ nav #menu, #xmark{
 
 .section-1 .column-2{
   margin: auto;
-  height: 400px;
-  width: 250px;
+  height: 500px;
+  min-width: 325px;
+  max-width: 325px;
   flex-basis: 25%;
   padding: 20px 12px;
   box-sizing: border-box;
   position: relative;
-  background-color: red;
   overflow: hidden;
 }
 
 .section-1 .row img {
   height: 400px;
+  width: 275px;
   position: absolute;
   top: 45px;
   left: 0px;
@@ -167,16 +167,17 @@ nav #menu, #xmark{
 
 .sidewalk_border {
   height: 400px;
-  width: 250px;
+  width: 275px;
   border-style: solid;
-  border-width: 5px;
+  border-width: 7px;
+  border-color: #326d76;
   top: 0;
-  right: -35px;
+  right: 0px;
   position: absolute;
 }
 
 hr {
-  width: 70%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
   height: 7px;
@@ -184,6 +185,24 @@ hr {
   border: 0 none;
 }
 
+.section-1 .sidewalk-img {
+  display: none;
+}
+
+
+@media(max-width: 1000px){
+  .section-1 .row{
+    display: block;
+  }
+
+   .section-1 .sidewalk-img {
+    display: block;
+  }
+
+  .section-1 .sidewalk-img-2 {
+   display: none;
+ }
+}
 
 /*Section 2*/
 
@@ -201,14 +220,26 @@ hr {
   box-sizing: border-box;
 }
 
+@media(max-width: 1000px){
+  .section-2 .row {
+    display: block;
+  }
+}
+
 /*Section 3*/
+
 .section-3 {
   padding-top: 40px;
   background-color: #326d76;
 }
 
+.section-3 h1 {
+  color: #fff;
+}
+
 .section-3 p{
   padding-top: 30px;
+  color: #fff;
 }
 
 .section-3 .row{
@@ -219,17 +250,56 @@ hr {
   margin-right: 15%;
 }
 
-.section-3 img{
-  padding: 20px;
+.section-3 .column-1{
   height: 350px;
-}
-
-.section-4 {
+  min-width: 500px;
+  max-width: 500px;
+  height: 355px;
+  overflow: hidden;
+  position: relative;
   margin-top: 50px;
 }
 
+.section-3 .lawn-mower-border {
+  bottom: 0px;
+  left: 0px;
+  height: 318px;
+  width: 457px;
+  border-style: solid;
+  border-width: 7px;
+  border-color: #fff;
+  position: absolute;
+}
+
+.section-3 img{
+  position: absolute;
+  height: 325px;
+  right: 0;
+  width: 468px;
+}
+
+
 .section-3 .column-2{
-  flex-basis: 60%;
+  flex-basis: 55%;
+  padding: 20px;
+}
+
+
+@media(max-width: 1000px){
+  .section-3 .row {
+    display: block;
+  }
+
+  .section-3 .column-1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Section 4 */
+
+.section-4 {
+  margin-top: 50px;
 }
 
 .section-4 .row{
