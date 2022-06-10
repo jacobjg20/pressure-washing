@@ -14,3 +14,6 @@ Resources
 
 watch flexbox tutorial - https://www.youtube.com/watch?v=fYq5PXgSsbE&ab_channel=WebDevSimplified
 watch css postion absolute;
+
+break points
+  * minimum 320px
