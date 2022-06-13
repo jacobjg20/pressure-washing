@@ -203,11 +203,6 @@ nav #menu, #xmark{
  }
 }
 
-@media (max-width: 470px) {
-
-}
-
-
 /*Section 2*/
 
 .section-2 .row{
@@ -341,7 +336,6 @@ nav #menu, #xmark{
   margin-left: 15%;
   margin-right: 15%;
 }
-
 
 footer {
   color: white;
