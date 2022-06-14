@@ -7,7 +7,9 @@ Goals
 
   * create hamburger menu for navigation
 
+  * let pictures transiton into the page from the side
 
+  * add shadow-box to call button
 Resources
  - https://youtu.be/oYRda7UtuhA?t=1990
  - https://www.youtube.com/c/TheCoderCoder
