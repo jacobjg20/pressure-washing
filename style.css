@@ -12,7 +12,7 @@ p {
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 34px;
   font-family: 'Roboto', sans-serif;
   color: #323232;
 }
@@ -26,14 +26,23 @@ h1 {
   width: 100%;
 }
 
+.row {
+  max-width: 1200px;
+}
+
 nav {
-  height: 10px;
   overflow: hidden;
   background-color: #326d76;
-  display: flex;
-  padding: 2% 6%;
+}
+
+nav .row {
   justify-content: space-between;
   align-items: center;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .nav-links {
@@ -43,16 +52,19 @@ nav {
 
 .nav-links ul li {
   list-style: none;
-  display: inline-block;
+  display: inline;
   padding: 8px 12px;
   position: relative;
+  background-color: red;
+
 }
 
 .nav-links ul li a {
   color: #fff;
   text-decoration: none;
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
 }
 
 nav #menu, #xmark{
@@ -64,6 +76,7 @@ nav #menu, #xmark{
 /* Hero Section */
 
 .text-box {
+  max-width: 1200px;
   width: 60%;
   color: #fff;
   position: absolute;
@@ -74,8 +87,11 @@ nav #menu, #xmark{
 }
 
 .text-box h1 {
-  font-size: 58px;
+  font-size: 52px;
+  font-family: 'Roboto', sans-serif;
   color: #fff;
+  font-weight: 500;
+  letter-spacing: .05rem;
 }
 
 .text-box p{
@@ -96,9 +112,6 @@ nav #menu, #xmark{
 }
 
 @media(max-width: 800px){
-  nav {
-    height: 50px;
-  }
 
   nav #menu, #xmark{
     display: block;
@@ -133,12 +146,12 @@ nav #menu, #xmark{
 .section-1 .row{
   margin-top: 3%;
   display: flex;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-1 {
-  border-top: 40px #326d76 solid;
+  border-top: 20px #326d76 solid;
   padding-bottom: 50px;
 }
 
@@ -153,7 +166,7 @@ nav #menu, #xmark{
 }
 
 .section-1 .column-2{
-  margin: auto;
+  margin-left: auto;
   height: 75vh;
   min-width: 325px;
   max-width: 325px;
@@ -191,6 +204,8 @@ nav #menu, #xmark{
 
 @media(max-width: 1000px){
   .section-1 .column-2 {
+    margin-left: auto;
+    margin-right: auto;
     min-width: 220px;
     min-height: 100px;
   }
@@ -216,9 +231,10 @@ nav #menu, #xmark{
   display:flex;
   justify-content: space-between;
   text-align: center;
-  margin-left: 7%;
-  margin-right: 7%;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 40px;
+  margin-top: 40px;
   padding: 10px;
 }
 
@@ -268,8 +284,8 @@ nav #menu, #xmark{
   display:flex;
   justify-content: space-between;
   text-align: center;
-  margin-left: 7%;
-  margin-right: 7%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-3 .column-1{
@@ -353,8 +369,20 @@ nav #menu, #xmark{
 
 .section-4 .row{
   text-align: center;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-4 h1 {
+  font-size: 52px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  letter-spacing: .05rem;
+}
+
+.section-4 p {
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 footer {
@@ -369,8 +397,8 @@ footer .row{
   display:flex;
   justify-content: space-between;
   text-align: center;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (max-width: 700px) {

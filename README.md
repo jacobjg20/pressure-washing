@@ -11,9 +11,12 @@ Goals
 
   * add shadow-box to call button
 
+  * add parallax effect to css
+
 Resources
  - https://youtu.be/oYRda7UtuhA?t=1990
  - https://www.youtube.com/c/TheCoderCoder
+ - https://www.youtube.com/watch?v=mxHoPYFsTuk&ab_channel=WebDevSimplified parallax
 
 watch flexbox tutorial - https://www.youtube.com/watch?v=fYq5PXgSsbE&ab_channel=WebDevSimplified
 watch css postion absolute;
