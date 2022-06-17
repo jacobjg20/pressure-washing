@@ -1,3 +1,8 @@
+@keyframes drop-down {
+    0%{ top: 25%; opacity: 0.1;}
+    100%{top: 50%; opacity: 1;}
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -31,7 +36,6 @@ h1 {
 }
 
 nav {
-  overflow: hidden;
   background-color: #326d76;
 }
 
@@ -50,13 +54,15 @@ nav .row {
   text-align: right;
 }
 
+.nav-links ul {
+  overflow: hidden;
+}
+
 .nav-links ul li {
   list-style: none;
   display: inline;
   padding: 8px 12px;
   position: relative;
-  background-color: red;
-
 }
 
 .nav-links ul li a {
@@ -65,6 +71,10 @@ nav .row {
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
+}
+
+.nav-links img{
+  height: 25px;
 }
 
 nav #menu, #xmark{
@@ -84,6 +94,8 @@ nav #menu, #xmark{
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  animation: drop-down 2.25s;
+  animation-fill-mode: forwards;
 }
 
 .text-box h1 {

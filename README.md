@@ -13,6 +13,7 @@ Goals
 
   * add parallax effect to css
 
+  * Create fade in effect for whole page
 Resources
  - https://youtu.be/oYRda7UtuhA?t=1990
  - https://www.youtube.com/c/TheCoderCoder
