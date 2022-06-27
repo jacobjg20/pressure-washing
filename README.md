@@ -18,6 +18,7 @@ Resources
  - https://youtu.be/oYRda7UtuhA?t=1990
  - https://www.youtube.com/c/TheCoderCoder
  - https://www.youtube.com/watch?v=mxHoPYFsTuk&ab_channel=WebDevSimplified parallax
+ - https://alvarotrigo.com/blog/css-animations-scroll/ reveal on scroll
 
 watch flexbox tutorial - https://www.youtube.com/watch?v=fYq5PXgSsbE&ab_channel=WebDevSimplified
 watch css postion absolute;

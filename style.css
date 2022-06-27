@@ -1,6 +1,16 @@
 @keyframes drop-down {
-    0%{ top: 35%; opacity: 0.1;}
-    100%{top: 50%; opacity: 1;}
+    0% { top: 35%; opacity: 0; }
+    100% { top: 50%; opacity: 1; }
+}
+
+@keyframes hover-inside {
+  0% { left: 20%; opacity: 0; }
+  100% { left: 0px; opacity: 1; }
+}
+
+@keyframes hover-inside-outer-border {
+  0% { right: -20%; opacity: 0.1; }
+  100% { right: 0px; opacity: 1; }
 }
 
 * {
@@ -45,6 +55,14 @@ h1 {
   color: #323232;
 }
 
+.reveal {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
 .header {
   background-position: center;
   background-image: url('assets/pressure_washing_pavement_closeup.jpg');
@@ -65,14 +83,34 @@ nav {
   background-color: #326d76;
 }
 
+nav .column {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+nav h3 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 26px;
+  letter-spacing: .2rem;
+  font-weight: 200;
+}
+
+nav h4 {
+  color: white;
+  letter-spacing: .05rem;
+  font-size: 14px;
+  font-weight: 400;
+}
+
 nav .row {
   justify-content: space-between;
   align-items: center;
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
+  height: 100%;
 }
 
 .nav-links {
@@ -114,7 +152,7 @@ nav #menu, #xmark{
 .text-box {
   margin-top: 10vh;
   max-width: 1200px;
-  height: 75vh;
+  height: 80vh;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -196,9 +234,11 @@ nav #menu, #xmark{
 }
 
 .section-1 .row{
+  height: 75vh;
   margin-top: 3%;
   display: flex;
   margin-left: auto;
+  overflow-x: visible;
   margin-right: auto;
 }
 
@@ -211,7 +251,7 @@ nav #menu, #xmark{
   padding-top: 40px;
 }
 
-.section-1 .column{
+.section-1 .column {
   flex-basis: 60%;
   padding: 20px 12px;
   box-sizing: border-box;
@@ -219,7 +259,6 @@ nav #menu, #xmark{
 
 .section-1 .column-2{
   margin-left: auto;
-  height: 75vh;
   min-width: 325px;
   max-width: 325px;
   max-height: 500px;
@@ -227,10 +266,11 @@ nav #menu, #xmark{
   padding: 20px 12px;
   box-sizing: border-box;
   position: relative;
-  overflow: hidden;
+  overflow-x: visible;
 }
 
 .section-1 .row img {
+  animation: hover-inside 1.75s;
   height: 90%;
   width: 90%;
   position: absolute;
@@ -239,13 +279,14 @@ nav #menu, #xmark{
 }
 
 .sidewalk_border {
+  animation: hover-inside-outer-border 1.75s;
   height: 90%;
   width: 90%;
   border-style: solid;
   border-width: 7px;
   border-color: #326d76;
-  top: 018px;
-  right: 0px;
+  top: 18px;
+  right: 0;
   position: absolute;
 }
 
