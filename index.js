@@ -9,7 +9,6 @@ function showNavLinks(){
   nav_links[0].style = "right: 0px";
 }
 
-window.addEventListener("scroll", reveal);
 
 function reveal() {
     var reveals = document.querySelectorAll(".reveal");
@@ -25,3 +24,6 @@ function reveal() {
     }
   }
 }
+
+
+window.addEventListener("scroll", reveal);
